@@ -1,6 +1,8 @@
 class Solution:
     @staticmethod
     def convert(s: str, numRows: int) -> str:
+        if numRows == 1:
+            return s
         zigzag = [[] for _ in range(numRows)]
         count = 0
         flag = True
@@ -26,3 +28,4 @@ if __name__ == "__main__":
     print(Solution.convert("PAYPALISHIRING", 3))
     print(Solution.convert("PAYPALISHIRING", 4))
     print(Solution.convert("A", 1))
+    print(Solution.convert("ABC", 1))
