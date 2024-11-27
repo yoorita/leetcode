@@ -1,4 +1,4 @@
-package medium
+package main
 
 import "slices"
 
