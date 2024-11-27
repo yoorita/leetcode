@@ -1,4 +1,4 @@
-package medium
+package main
 
 func romanToInt(s string) int {
     number := 0
