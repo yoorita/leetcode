@@ -1,4 +1,4 @@
-package medium
+package main
 
 func isValid(s string) bool {
     match := map[rune]rune {
